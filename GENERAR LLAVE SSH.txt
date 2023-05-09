@@ -1,0 +1,134 @@
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ LS
+'3D Objects'
+ AppData
+'Application Data'
+'Configuración local'
+ Contacts
+ Cookies
+'Datos de programa'
+ Documents
+ Downloads
+'Entorno de red'
+ Favorites
+ Impresoras
+ IntelGraphicsProfiles
+ Links
+'Menú Inicio'
+'Mis documentos'
+ Music
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive
+ Plantillas
+ Reciente
+'Saved Games'
+ Searches
+ SendTo
+ Sti_Trace.log
+ Tracing
+ Videos
+ application
+ netsh
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ CD OneDrive
+bash: CD: command not found
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ cd OneDrive
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive (master)
+$ ls
+ AppData/  'Datos adjuntos de correo electrónico'/   Desktop/   Documentos/   Imágenes/   Pictures/   Público/   Vídeos/   desktop.ini
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive (master)
+$ cd Desktop
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop (master)
+$ ls
+'Balance Bodega y casa 04-12-22.xlsx'                     'HV Nelson Pulido.pdf'                                TestDataPro.lnk*
+'Baloto Resultado Excel.xlsm'                              HiSuite.lnk*                                        'Visual Studio Code.lnk'*
+'CIRION- LUMEM-FIBERTEC'/                                 'IMPRIMIR 2.pdf'                                     'Vnc 6.9 .zip'
+'Control Facturacion @PLANTA INTERNA_NELSON PULIDO.xlsx'   IMPRIMIR.pdf                                         WC/
+'Documentos Royal'/                                       'IMPUESTO PREDIAL 2023'/                              WH-RENT-APR-23.pdf
+'EQUIPOS A PASAR AL RACK AF43.xlsx'                       'N_25_ABRIL_23_Servicios Publicos apt 303.xlsx'      'Z - Canales de Venta Autorizados.pdf'
+'EQUIPOS PARA MIGRACION ABRIL AU28-AS28.xlsx'             'Nelson Pulido Declaracion 2021'/                     Zoom.lnk*
+ ESCRITORIO/                                               OneDrive_1_5-4-2023.zip                              descarga.pdf
+ EXCEL/                                                   'PRUEBA TÉCNICA Nelson Enrique Pulido Barrera.docx'   desktop.ini
+ Ejercicios/                                              'Pagos Electronicos - SCOTIABANK COLPATRIA.pdf'      'formato certificado aem.docx'
+'Equipos R-AS28.xlsx'                                     'Prueba de Cordinadores'/                            'git init.txt'
+'Fotos Dubra'/                                             RENT_WH-MAY-2023.pdf                                'pago gas.pdf'
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop (master)
+$ cd Ejercicios
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ ssh-keygen -t rsa -b 4096 -C "nelsonpulido19@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/nelso/.ssh/id_rsa):
+/c/Users/nelso/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/nelso/.ssh/id_rsa
+Your public key has been saved in /c/Users/nelso/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:y8LNVuA86aecuFVmUsHAd6hStuwy6sJhWZ6L6BxpMio nelsonpulido19@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|       ..o..     |
+|        + +..    |
+|       +.+..     |
+|    . .o++       |
+|   + . oS =      |
+|  = o.o=.O       |
+|oB o oooO .      |
+|E.= o  * +       |
+|+o o. o.+        |
++----[SHA256]-----+
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ eval "$(ssh-agent -s)"
+Agent pid 1713
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ ssh-add Ejercicios/a/tu/llave/ssh
+Ejercicios/a/tu/llave/ssh: No such file or directory
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ ssh-add /OneDrive/Desktop/Ejercicios/a/tu/llave/ssh
+/OneDrive/Desktop/Ejercicios/a/tu/llave/ssh: No such file or directory
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ ssh-add /c/Users/nelso/.ssh/id_rsa
+Identity added: /c/Users/nelso/.ssh/id_rsa (nelsonpulido19@gmail.com)
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ cat id_rsa
+cat: id_rsa: No such file or directory
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ find id_rsa
+find: ‘id_rsa’: No such file or directory
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ ls -a ~/.ssh
+./  ../  id_rsa  id_rsa.pub
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ ssh-add ~/.ssh/id_rsa
+Identity added: /c/Users/nelso/.ssh/id_rsa (nelsonpulido19@gmail.com)
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ clip <~/.ssh/id_rsa.pub
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDD3Zrqp9w/eXBKWcXEmj/R9KzJGdzCoK0vHbaXohgY8msPN/C/xVqZl5AujS7qEVt9CysgjZ467QMZVYJCBLYIbiwVk1wPMweF8l5Eg4GITn1FtW0eKspDTOBuurcc+ALAbEXBgAJjz3n8AFop10YBgKDgAeQyqLBy+OXE34jDngEbrR5/vs3Zl+HTdvcq/a96yOzpKE7SqWw/fRpFtt8G7DCkU0yhAZAxqZ9gXW9fBueekeTe0/sSsGBjHOW78oTFb/ezeAQtaE930dO5f4oQ0dh94Y4VXDacwWu/mGUwGIpmw3qWtrwCq8jt4kCWYR16/2YAmkjSbpB9xKDZHeMACNtWhvQNA/x+EeIFl0MvOSLpgrGrQmNrfTHGZcD86xAvlSMg120kkyhAdjOLBwuGbzrJNR21KpgYb6bEUotOXPQ93ksGJUah3nQZlRt6K/VmrxWgmoUg9gt/QaMkjJI+XrB23cODZD4m5AOtXZ2DUtOUT6oq+8Qp0pU4TxR8TepLajY3jIWAbjl/OD4JGE7Idw5uuX2uEt6YG445kgPT77nrCbnc4YMzuvMCDanaTWIMqZJ+4ga3KW9IocV+9rvV4FRqfLO4UGK/aWT0mSyXMWD26n6kUp/XJoFA9jVM0UxtcOpnSH9dLJ7K3bsMvqgAy9CD7hhFejJ06uZ0xIaSZQ== nelsonpulido19@gmail.com

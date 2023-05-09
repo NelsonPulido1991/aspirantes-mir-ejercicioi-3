@@ -1,0 +1,119 @@
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ pwd
+/c/Users/nelso
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'/
+'Configuración local'@
+ Contacts/
+ Cookies@
+'Datos de programa'@
+ Documents/
+ Downloads/
+'Entorno de red'@
+ Favorites/
+ Impresoras@
+ IntelGraphicsProfiles/
+ Links/
+'Menú Inicio'@
+'Mis documentos'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TM.blf
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{a2332f18-cdbf-11ec-8680-002248483d79}.TMContainer00000000000000000002.regtrans-ms
+ OneDrive/
+ Plantillas@
+ Reciente@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Sti_Trace.log
+ Tracing/
+ Videos/
+ application/
+ netsh
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+nelso@LAPTOP-VAARF69E MINGW64 ~ (master)
+$ cd OneDrive
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive (master)
+$ ls
+ AppData/                                 Documentos/   Público/
+'Datos adjuntos de correo electrónico'/   Imágenes/     Vídeos/
+ Desktop/                                 Pictures/     desktop.ini
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive (master)
+$ cd Desktop
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop (master)
+$ ls
+'Balance Bodega y casa 04-12-22.xlsx'
+'Baloto Resultado Excel.xlsm'
+'CIRION- LUMEM-FIBERTEC'/
+'Control Facturacion @PLANTA INTERNA_NELSON PULIDO.xlsx'
+'Documentos Royal'/
+'EQUIPOS A PASAR AL RACK AF43.xlsx'
+'EQUIPOS PARA MIGRACION ABRIL AU28-AS28.xlsx'
+ ESCRITORIO/
+ EXCEL/
+ Ejercicios/
+'Equipos R-AS28.xlsx'
+'Fotos Dubra'/
+'HV Nelson Pulido.pdf'
+'HV-Nelson Pulido.pdf'
+ HiSuite.lnk*
+'IMPRIMIR 2.pdf'
+ IMPRIMIR.pdf
+'IMPUESTO PREDIAL 2023'/
+'N_25_ABRIL_23_Servicios Publicos apt 303.xlsx'
+'Nelson Pulido Declaracion 2021'/
+ OneDrive_1_5-4-2023.zip
+'PRUEBA TÉCNICA Nelson Enrique Pulido Barrera.docx'
+'Pagos Electronicos - SCOTIABANK COLPATRIA.pdf'
+'Prueba de Cordinadores'/
+ RENT_WH-MAY-2023.pdf
+ TestDataPro.lnk*
+'Visual Studio Code.lnk'*
+'Vnc 6.9 .zip'
+ WC/
+ WH-RENT-APR-23.pdf
+'Z - Canales de Venta Autorizados.pdf'
+ Zoom.lnk*
+ descarga.pdf
+ desktop.ini
+'formato certificado aem.docx'
+'git init.txt'
+'pago gas.pdf'
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop (master)
+$ cd Ejercicios
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/nelso/OneDrive/Desktop/Ejercicios/.git/
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ touch README.md
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ git add README.md
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ git commit -m "Agregué el archivo README.md"
+[master 09609fb] Agregué el archivo README.md
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$ ^C
+
+nelso@LAPTOP-VAARF69E MINGW64 ~/OneDrive/Desktop/Ejercicios (master)
+$
